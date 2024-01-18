@@ -1,0 +1,61 @@
+<script>
+    function validateform()
+    {
+    var eml = document.myform.emil.value;
+    var pass = document.myform.pass.value;
+    var atposition=eml.indexOf("@"); 
+    var dotposition=eml.lastIndexOf(".");
+     
+    
+    if(eml==""||eml==null)
+    {
+        alert("email must be filled out");
+        document.forms["myform"]["emil"].focus();
+        return false;
+    } 
+    if(pass==""||pass==null)
+    {
+        alert("password must be filled out");
+        document.forms["myform"]["pass"].focus();
+        return false;
+    }
+    if(pass.length<6)
+    {
+        alert("password should be greater than 6")
+        document.forms["myform"]["pass"].focus();
+        return false;
+    }
+    if (atposition<1 || dotposition<atposition+2 || dotposition+2>=w.length){  
+    alert("Please enter a valid e-mail address \n atpostion:"+atposition+"\n dotposition:"+dotposition);  
+    return false;  
+    }
+    
+     }
+  
+  </script>
+  
+          <link rel="stylesheet" href="login.css">
+          
+      </head>
+  
+  
+      <body>
+       <div class="container">
+        <form name="myform" method="post" onsubmit="return validateform()" >          
+           <div class="login_form"> 
+              <h1 class="label">LOGIN</h1>   
+            <tr>
+                <td><div class="font">Email</div></td>
+            <td><input type="text" name="emil" class="input"><br/><br/></td>
+            </tr>
+            <tr>
+                <td><div class="font">password</div></td>
+            <td><input type="password" name="pass" class="input"><br/><br/></td>
+            </tr>
+            <tr></tr></br></br>
+            <button class="button" formaction="Home.html" onclick="valid()">Register</button>
+            </div> 
+       </form>
+            </div> 
+            <div><a href="Home.html"><button class="btn">Back</button></a></div>
+         </body>

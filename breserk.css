@@ -1,0 +1,446 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.logo{
+margin-left: 60px;
+margin-top: 50px;
+
+}
+.logo img{
+    height: 7vh;
+}
+.logo h3{
+    color:teal;
+    font-size: 25px;
+    margin-top: -35px;
+
+    margin-left: 50px;
+}
+
+.container{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(35, 33, 33);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.span{
+color: azure;
+}
+.navbar{
+  width: 100%;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px 8px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: teal;
+  font-size: 15px;
+}
+
+.menu a:hover{
+  color: white;
+}
+
+.search-box{
+  background: black;
+  border-radius: 40px;
+  padding: 10px;
+  height: 30px;
+  margin-right: 60px;
+}
+.search-box:hover > .search-txt{
+  width: 240px;
+  padding: 0 6px;
+}
+.search-btn{
+
+  color: teal;
+  float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 1s;
+  line-height: 40px;
+  width: 0px;
+}
+.icon img{
+  font-size: 27px;
+    margin-top: 3px;
+    padding: 0px 4px;
+    color: teal;
+    
+}
+.how{
+  font-size: 15px;
+  color: white;
+  line-height: 500px;
+  float: left;
+  margin: 40px; 
+  margin-top: -150px;
+}
+.how h1{
+  margin-left: 45px;
+  margin-top: 50px;
+}
+.how1 p{
+  float: left;
+  margin-left: 5%;
+  margin-top: -450px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  color:white;
+  font-weight: 400;
+
+
+}
+.how2{
+  float: left;
+  margin-bottom: auto;
+}
+
+.sxf img{
+  height: 500px;
+  width: 600px;
+  border-radius: 8px;
+  margin-left: 450px;
+  margin-top: 160px;
+}
+
+
+
+.title {
+  height: 5px;
+  width: 250px;
+  margin-left: 499px;
+  margin-right: 550px;
+  display: flex;
+  border-radius: 5px;
+  transform: translateY(-30px);
+}
+
+  #Plot{
+    padding: 70px;
+    color: white;
+    font-size: large;
+    background-color: rgb(35, 33, 33);
+  }
+  
+  #manga{
+    padding: 70px;
+    color: white;
+    font-size: large;
+    background-color: rgb(35, 33, 33);
+  }
+  #Light_novel{
+    padding: 70px;
+    color: white;
+    font-size: large;
+    background-color: rgb(35, 33, 33);
+  }
+  
+  .sxf1 img{
+    height: 500px;
+    width: 600px;
+    border-radius: 8px;
+    margin-top: -50px;
+   
+  }
+  #anime{
+    padding: 70px;
+    color: white;
+    font-size: large;
+    background-color: rgb(35, 33, 33);
+  }
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+  html,
+  body {
+      height: 100%
+  }
+  
+  body {
+      display: grid;
+     place-items: center;
+      font-family: 'Manrope', sans-serif;
+     background: teal;
+      
+  }
+  
+  .card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      padding: 20px;
+      width: 450px;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      border-radius: 6px;
+      box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1)
+  }
+  
+  .comment-box{
+      
+      padding:5px;
+  }
+  
+  
+  
+  .comment-area textarea{
+     resize: none; 
+          border: 5px solid #ad9f9f;
+          padding-right: 50px;
+          border-radius: 5px;
+          
+  }
+  
+  
+  .form-control:focus {
+      color: #495057;
+      background-color: #fff;
+      border-color: #ffffff;
+      outline: 0;
+      box-shadow: 0 0 0 1px  teal !important;
+  }
+  
+  .send {
+      color: #fff;
+      background-color:  teal;
+      border-color: teal;
+  }
+  
+  .send:hover {
+      color: #fff;
+      background-color: teal;
+      border-color:  teal;
+  }
+  
+  
+  .rating {
+   display: flex;
+          margin-top: -10px;
+      flex-direction: row-reverse;
+      margin-left: -4px;
+          float: left;
+  }
+  
+  .rating>input {
+      display: none
+  }
+  
+  .rating>label {
+          position: relative;
+      width: 19px;
+      font-size: 25px;
+      color:  teal;
+      cursor: pointer;
+  }
+  
+  .rating>label::before {
+      content: "\2605";
+      position: absolute;
+      opacity: 0
+  }
+  
+  .rating>label:hover:before,
+  .rating>label:hover~label:before {
+      opacity: 1 !important
+  }
+  
+  .rating>input:checked~label:before {
+      opacity: 1
+  }
+  
+  .rating:hover>input:checked~label:before {
+     opacity:0.4
+  }
+
+
+
+  @import url(http://fonts.googleapis.com/css?family=Calibri:400,300,700);
+
+  body {
+      background-color: rgb(35, 33, 33);
+      font-family: 'Calibri', sans-serif !important;
+  }
+  
+  .card-no-border .card {
+      border: 0px;
+      border-radius: 4px;
+      -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05)
+  }
+  
+  .card-body {
+      -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+      padding: 1.25rem
+  }
+  
+  .comment-widgets .comment-row:hover {
+      background: rgba(0, 0, 0, 0.02);
+      cursor: pointer;
+  }
+  
+  .comment-widgets .comment-row {
+      border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+      padding: 15px;
+  }
+  .comment-text:hover{
+      visibility: hidden;
+  }
+  .comment-text:hover{
+      visibility: visible;
+  }
+  
+  .label {
+      padding: 3px 10px;
+      line-height: 13px;
+      color: #ffffff;
+      font-weight: 400;
+      border-radius: 4px;
+      font-size: 75%;
+  }
+  
+  .round img {
+      border-radius: 100%;
+  }
+  
+  .label-info {
+      background-color: #1976d2;
+  }
+  
+  .label-success {
+      background-color: green;
+  }
+  
+  .label-danger {
+      background-color: #ef5350;
+  }
+  
+  .action-icons a {
+      padding-left: 7px;
+      vertical-align: middle;
+      color: #99abb4;
+  }
+  
+  .action-icons a:hover {
+      color: #1976d2;
+  }
+  
+  .mt-100 {
+      margin-top: 100px
+  }
+  
+  .mb-100 {
+      margin-bottom: 100px
+  }
+
+  .btn_container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+}
+button{
+    width: 550px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px black;
+    background-color:wheat;
+    border-color:black;
+    border: 0.0625rem solid transparent;
+    color: black;
+    font-size: 30px;
+    
+}
+button:hover{
+    box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #ffffff;
+}
+button i{
+    margin-right: 15px;
+}
+.Send{
+  color:teal;
+  width: 100px;
+  height: 20px;
+  font-size: 10px;
+}
+
+.cancel{
+  height: 20px;
+  width: 100px;
+  font-size: 10px;
+  color: black;
+}
+
+  .footer{
+    position: absolute;
+    margin-top: 7200px;
+    height: 20vh;
+    color: white;
+    background:#141414;
+    width: 100%;
+    margin-bottom: -500px;
+}
+
+
+.logopart img{
+    height:7vh;
+    margin-left: 70px;
+    margin-top: -50px;
+}
+.logopart h1{
+    color:teal;
+font-size: 25px;
+margin-top: 40px;
+margin-left: 120px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.socials i{
+    font-size: 27px;
+    margin-top: 30px;
+    padding: 0px 4px;
+    color: teal;
+}
+

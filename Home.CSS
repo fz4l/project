@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.logo{
+  margin-left: 60px;
+  margin-top: 50px;
+  
+  }
+  .logo img{
+      height: 7vh;
+  }
+  .logo h3{
+      color:teal;
+      font-size: 25px;
+      margin-top: -35px;
+  
+      margin-left: 50px;
+  }
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(35, 33, 33);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar{
+    width: 100%;
+    margin: auto;
+  
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 8px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: teal;
+    font-size: 15px;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
+.topnav input[type=text] {
+    float: center;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 50px;
+    font-size: 17px;
+  }
+
+  .menu a:hover{
+    color: white;
+  
+  }
+  .search-box{
+    background: black;
+    border-radius: 40px;
+    padding: 10px;
+    height: 30px;
+    margin-right: 60px;
+  }
+  .search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+  }
+  .search-btn{
+  
+    color: teal;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 1s;
+    line-height: 40px;
+    width: 0px;
+  }
+  .icon img{
+    font-size: 27px;
+      margin-top: 3px;
+      padding: 0px 4px;
+      color: teal;
+      
+  }
+    
+    .latest{
+      position: absolute;
+      color:white;
+     margin-top: 100px;
+     margin-left: 100px;
+    }
+    .inside-latest{
+      line-height:2;
+    }
+    .inside-latest h1{
+      font-size: 40px;
+    }
+    .inside-latest p{
+      font-size: 17px;
+    }
+    .span{
+      color: teal;
+      font-weight: bold;
+  
+    }
+    .line1{
+      height: 2px;
+      background-color:teal;
+      width: 12%;
+      margin-left: 0px;
+      margin-top: 0px;
+      position: absolute;
+    }
+    .btn1{
+    margin-top: 30px;
+
+    }
+    .btn1 h1{
+      background-color: teal;
+      color: white;
+      padding: 10px 25px;
+      text-decoration: none;
+      border-radius: 30px;
+    }
+    .btn1 h1:hover{
+      background: rgb(243, 238, 238);
+      color: teal;
+    }
+    .btn1 p{
+      color:rgb(207, 196, 196);
+      padding: 0px 10px;
+    }
+    .btn1 p:hover{
+      color: white;
+    }
+    
+    .poster{
+      margin-top: 130px;
+      margin-right: 150px;
+    }
+    .poster img{
+      height:320px;
+      float: right;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .eimg{
+      height: 250px;
+  
+  width: 200px;
+  border-radius: 16px;
+  
+  cursor: pointer;
+ 
+  margin-top: 40px;
+  padding: 4px;
+  transition: all 500ms ease-in-out;
+    }
+  .latest-all{
+    position: absolute;
+    width:100%;
+    height: 100%;
+   background-color: black;
+    margin-top: 0px;
+    
+  }
+  .latest-all h1{
+    font-size: 20px;
+    color:teal;
+  }
+  .latest-container{
+    padding: 10px 0px;
+  }
+  .latest-container{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .latest-inside img{
+    
+    height: 250px;
+    width: 200px;
+    cursor: pointer;
+    padding: 100px;
+    transition: all 500ms ease-in-out;
+    
+  }
+  .latest-inside img:hover{
+    transform: scale(1.2);
+  }
+  .heading1{
+    padding-left: 100px;
+    padding-bottom: 1px;
+    transform: scale(1.2);
+  }
+  .heading1 h4{
+    font-size: 15px;
+    color: rgb(242, 240, 240);
+  }
+  .heading1 p{
+    color: aliceblue;
+  }
+  .heading1 h6{
+    font-size: 15px;
+    color: aliceblue;
+  }
+ 
+  .footer{
+    position: absolute;
+    margin-top: 800px;
+    height: 20vh;
+    color: white;
+    background:#141414;
+    
+    width: 100%;
+}
+
+
+.logopart img{
+    height:7vh;
+    margin-left: 70px;
+    margin-top: -50px;
+}
+.logopart h1{
+    color:teal;
+font-size: 25px;
+margin-top: 40px;
+margin-left: 120px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.socials i{
+    font-size: 27px;
+    margin-top: 30px;
+    padding: 0px 4px;
+    color: teal;
+}
